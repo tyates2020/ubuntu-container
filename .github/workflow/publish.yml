@@ -18,6 +18,6 @@ jobs:
 
       - name: Build the ubuntu-container Docker image
         run: |
-          docker build . --tag ghcr.io/tyates2020/ubuntu-container:latest
-          docker run ghcr.io/tyates2020/ubuntu-container:latest
-          docker push ghcr.io/tyates2020/ubuntu-container:latest
+          docker build . --tag ghcr.io/wickedyoda/ubuntu-container:latest
+          docker run ghcr.io/wickedyoda/ubuntu-container:latest
+          docker push ghcr.io/wickedyoda/ubuntu-container:latest
